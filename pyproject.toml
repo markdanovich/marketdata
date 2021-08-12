@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "marketdata"
+version = "0.1.0"
+description = "Market Data APIs wrappers"
+authors = ["markdanovich <mark@causalens.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.5"
+requests = "^2.25.1"
+pyjstat = "^2.2.0"
+mypy = "^0.910"
+tqdm = "^4.61.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.6b0"
+types-requests = "^2.25.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
